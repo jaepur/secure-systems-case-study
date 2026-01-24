@@ -68,26 +68,26 @@ Any analytical commentary is explicitly labeled as such.
 ---
 
 ## Repository Structure
-docs/
-├─ 00-executive-summary.md
-├─ 01-system-overview.md
-├─ 02-assumptions-and-scope.md
-├─ 03-requirements/
-│ ├─ software-requirements.md
-│ ├─ security-requirements.md
-│ ├─ traceability-matrix.md
-│ └─ security-types-matrix.md
-├─ 04-use-and-abuse-cases/
-│ ├─ use-cases.md
-│ ├─ abuse-cases.md
-│ └─ diagrams/
-├─ 05-threat-model/
-│ ├─ threat-catalog.md
-│ └─ controls-mapping.md
-├─ 06-risk-management/
-│ ├─ risk-register.md
-│ └─ prioritization-method.md
-└─ 08-lessons-learned.md
+secure-systems-case-study/\
+├─ docs\
+│ ├─ 00-executive-summary.md\
+│ ├─ 01-system-overview.md\
+│ ├─ 02-assumptions-and-scope.md\
+│ ├─ 03-requirements/\
+│ │ ├─ software-requirements.md\
+│ │ ├─ security-requirements.md\
+│ │ ├─ traceability-matrix.md\
+│ │ └─ security-types-matrix.md\
+│ ├─ 04-use-and-abuse-cases/\
+│ │ ├─ use-cases.md\
+│ │ ├─ abuse-cases.md\
+│ │ └─ diagrams/\
+│ ├─ 05-threat-model/\
+│ │ ├─ threat-catalog.md\
+│ │ └─ controls-mapping.md\
+│ ├─ 06-risk-management/\
+│ │ ├─ risk-register.md\
+│ │ └─ prioritization-method.md
 
 ---
 
