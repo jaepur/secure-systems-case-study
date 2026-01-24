@@ -12,7 +12,8 @@ This document is derived from the original academic deliverable:
 
 - Exoskeleton Security Requirements Exercise (PDF)
 
-An unmodified copy of the original submission is available in:
+An unmodified copy of the original submission is available in: 
+docs/original-deliverables/
 
 ---
 
