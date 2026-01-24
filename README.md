@@ -6,7 +6,7 @@ part of an academic capstone project. The work focuses on **design-time security
 analysis** for a conceptual cyber-physical system and demonstrates how security
 can be reasoned about systematically without claiming implementation or deployment.
 
-> ⚠️ **Important Disclaimer**  
+> **Important Disclaimer**  
 > This repository documents an *academic, fictitious case study*.  
 > No real systems were built, deployed, tested, or secured as part of this work.
 
