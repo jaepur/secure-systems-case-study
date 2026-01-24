@@ -1,3 +1,10 @@
+## Contents
+- System Assumptions
+- Security Analysis Assumptions
+- Out of Scope
+- Impact on Subsequent Artifacts
+
+
 # Assumptions and Scope
 
 ## Purpose of This Document
@@ -147,3 +154,4 @@ If an assumption listed in this document were to change, the following artifacts
 - Risk register and prioritization
 
 This document serves as the authoritative scope boundary for the entire project.
+
