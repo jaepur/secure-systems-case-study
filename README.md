@@ -107,19 +107,19 @@ Recommended reading order:
 
 ## Why This Project Matters
 
-Cyber-physical systems introduce unique risks where digital compromise can lead
-to physical consequences. This case study demonstrates:
+Cyber-physical systems introduce unique risks where digital compromise can lead to physical consequences. This case study demonstrates:
 
-- How to reason about security **before implementation**
-- How misuse and abuse inform threat identification
-- How risks can be prioritized using structured criteria
+- How to reason about security at design time, prior to implementation
+- How misuse and abuse cases inform threat identification
+- How technical risks can be prioritized using structured criteria
 - How to document security analysis with integrity and traceability
 
-The methods demonstrated here are applicable to domains such as:
-- Defense and aerospace systems
+The analytical methods demonstrated in this case study are transferable to
+domains involving cyber-physical or safety-relevant systems, such as:
+
 - Robotics and automation
-- Industrial and OT environments
-- Safety-critical embedded systems
+- Industrial and operational technology (OT) environments
+- Safety-relevant embedded systems
 
 ---
 
