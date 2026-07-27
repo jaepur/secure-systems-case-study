@@ -1,93 +1,70 @@
-# Secure Systems Engineering Case Study  
-## NextGen Exoskeleton Navigator (Academic Project)
+# Secure Systems Engineering Case Study
+## NextGen Exoskeleton Navigator
 
-This repository presents a **secure systems engineering case study** developed as
-part of an academic capstone project. The work focuses on **design-time security
-analysis** for a conceptual cyber-physical system and demonstrates how security
-can be reasoned about systematically without claiming implementation or deployment.
+A structured security engineering assessment of a conceptual cyber-physical exoskeleton platform, developed as part of an academic capstone. This is a design-time analysis — no real system was built or tested.
 
-> **Important Disclaimer**  
-> This repository documents an *academic, fictitious case study*.  
-> No real systems were built, deployed, tested, or secured as part of this work.
+The project applies the full secure systems engineering lifecycle: from requirements and traceability through adversarial modeling, threat identification, controls mapping, and quantified risk prioritization. The system analyzed — a multi-mode exoskeleton with remote operation, autonomous behavior, and networked command infrastructure — presents a realistic set of cyber-physical attack surfaces and safety-critical constraints.
 
 ---
 
-## Project Scope and Intent
+## Skills Demonstrated
 
-The goal of this project was to analyze the security of a **conceptual exoskeleton
-platform** by applying structured methods commonly used in secure systems
-engineering, including:
-
-- Requirements analysis
-- Use and abuse case modeling
-- Threat identification
-- Mitigation reasoning
-- Risk assessment and prioritization
-
-All analysis was performed **at design time**, based on modeled assumptions and
-hypothetical operational contexts.
+- **Security requirements engineering** — functional software requirements mapped to explicit security requirements with full traceability across all downstream artifacts
+- **Use case and abuse case modeling** — legitimate operational behaviors paired with adversarial misuse scenarios to identify security gaps early in the design process
+- **Threat identification and controls mapping** — threat catalog covering physical, network, session, insider, and availability attack vectors, organized into logical control groupings
+- **Risk assessment and prioritization** — technical risk register scored across financial, reputational, compliance, and privacy impact dimensions using NIST CSF and OWASP Risk Rating methodology
+- **Technical documentation with traceability** — every artifact traces back to original deliverables; assumptions are explicitly bounded and inherited consistently across all documents
 
 ---
 
 ## What This Project Includes
 
-This repository contains **faithful reproductions** of academic deliverables,
-along with GitHub-native documentation that organizes and contextualizes them.
-
 ### Core Deliverables
-- Functional software requirements
-- Security requirements
-- Requirements traceability matrices
-- Use cases and abuse cases
-- Threat catalog and mitigation groupings
-- Technical risk register and prioritization method
+- Functional software requirements (R001–R015)
+- Security requirements (SR001–SR013)
+- Software-to-security traceability matrix
+- Use cases and abuse cases (AC-1 through AC-10)
+- Threat catalog (T-01 through T-10) and controls mapping
+- Technical risk register (TeR-01 through TeR-10) and prioritization methodology
 
 ### Supporting Documentation
 - Executive summary
-- System overview
-- Explicit assumptions and scope boundaries
-- Analytical commentary clearly separated from original content
+- System overview with trust boundary analysis
+- Explicit assumptions and scope boundary document
+- Analytical commentary clearly separated from original submission content
 
-Original, unmodified PDF submissions are preserved as **primary evidence** and
-are not rewritten or enhanced.
-
----
-
-## What This Project Does *Not* Claim
-
-To avoid misrepresentation, it is important to note that this project **does not**:
-
-- Implement security controls
-- Design or deploy a system architecture
-- Perform penetration testing or exploitation
-- Validate mitigations through testing
-- Represent real hardware, software, or organizations
-
-Any analytical commentary is explicitly labeled as such.
+Original, unmodified PDF submissions are preserved in `original-deliverables/` as primary evidence.
 
 ---
 
 ## Repository Structure
-secure-systems-case-study/\
-├─ docs\
-│ ├─ 00-executive-summary.md\
-│ ├─ 01-system-overview.md\
-│ ├─ 02-assumptions-and-scope.md\
-│ ├─ 03-requirements/\
-│ │ ├─ software-requirements.md\
-│ │ ├─ security-requirements.md\
-│ │ ├─ traceability-matrix.md\
-│ │ └─ security-types-matrix.md\
-│ ├─ 04-use-and-abuse-cases/\
-│ │ ├─ use-cases.md\
-│ │ ├─ abuse-cases.md\
-│ │ └─ diagrams/\
-│ ├─ 05-threat-model/\
-│ │ ├─ threat-catalog.md\
-│ │ └─ controls-mapping.md\
-│ ├─ 06-risk-management/\
-│ │ ├─ risk-register.md\
-│ │ └─ prioritization-method.md
+
+```
+secure-systems-case-study/
+├── docs/
+│   ├── 00-executive-summary.md
+│   ├── 01-system-overview.md
+│   ├── 02-assumptions-and-scope.md
+│   ├── 03-requirements/
+│   │   ├── software-requirements.md
+│   │   ├── security-requirements.md
+│   │   ├── traceability-matrix.md
+│   │   └── security-types-matrix.md
+│   ├── 04-use-and-abuse-cases/
+│   │   ├── use-cases.md
+│   │   └── abuse-cases.md
+│   ├── 05-threat-model/
+│   │   ├── threat-catalog.md
+│   │   └── controls-mapping.md
+│   └── 06-risk-management/
+│       ├── risk-register.md
+│       └── prioritization-methodology.md
+└── original-deliverables/
+    ├── donlon-exoskeleton-security-requirements-exercise.pdf
+    ├── donlon-exoskeleton-security-threat-exercise.pdf
+    ├── donlon-exoskelton-security-risk-exercise.pdf
+    └── donlon_exoskeleton_use_abuse.pdf
+```
 
 ---
 
@@ -95,47 +72,33 @@ secure-systems-case-study/\
 
 Recommended reading order:
 
-1. **Executive Summary** – High-level overview of the project  
-2. **System Overview** – Conceptual system description  
-3. **Assumptions & Scope** – Boundaries and constraints  
-4. **Requirements** – Functional and security requirements with traceability  
-5. **Use & Abuse Cases** – Intended and adversarial system behavior  
-6. **Threat Model & Controls Mapping** – Identified threats and mitigations  
-7. **Risk Management** – Risk register and prioritization methodology  
+1. **[Executive Summary](docs/00-executive-summary.md)** — High-level findings and methodology overview
+2. **[System Overview](docs/01-system-overview.md)** — Conceptual system components and trust boundaries
+3. **[Assumptions & Scope](docs/02-assumptions-and-scope.md)** — Boundaries and constraints inherited by all artifacts
+4. **[Requirements](docs/03-requirements/)** — Functional and security requirements with traceability matrix
+5. **[Use & Abuse Cases](docs/04-use-and-abuse-cases/)** — Intended and adversarial system behavior
+6. **[Threat Model & Controls Mapping](docs/05-threat-model/)** — Identified threats, vulnerabilities, and mitigation groupings
+7. **[Risk Management](docs/06-risk-management/)** — Risk register, scoring, and prioritization methodology
 
 ---
 
-## Why This Project Matters
+## Key Findings
 
-Cyber-physical systems introduce unique risks where digital compromise can lead to physical consequences. This case study demonstrates:
+- **Communication interception** (TeR-02) ranked as the highest-priority risk — high likelihood combined with broad impact across confidentiality, compliance, and privacy dimensions
+- **Insider threat and deprecated encryption** (TeR-09, TeR-05) ranked second and third, driven by elevated privilege exposure and data breach impact
+- **Session and permission transition failure** (TeR-01) identified as a critical safety risk due to the system's direct physical actuation of the operator
+- **Maintenance interface abuse** emerged as a recurring high-risk theme across threat, abuse case, and risk artifacts — elevated privilege with limited monitoring creates a consistent attack surface
 
-- How to reason about security at design time, prior to implementation
-- How misuse and abuse cases inform threat identification
-- How technical risks can be prioritized using structured criteria
-- How to document security analysis with integrity and traceability
+---
 
-The analytical methods demonstrated in this case study are transferable to
-domains involving cyber-physical or safety-relevant systems, such as:
+## Why Cyber-Physical Security Analysis Matters
 
-- Robotics and automation
-- Industrial and operational technology (OT) environments
-- Safety-relevant embedded systems
+Digital compromise in cyber-physical systems does not stop at data loss — it translates directly to unsafe physical behavior, mission failure, or personnel harm. This project treats security as a core system property, not an afterthought, and demonstrates how structured analysis at design time produces a defensible, traceable security posture before a line of code is written.
+
+The methods applied here are directly relevant to defense systems, industrial and operational technology (OT) environments, robotics, and medical devices — domains where the cost of a security gap is measured in more than money.
 
 ---
 
 ## Academic Integrity Statement
 
-All GitHub-native documentation is derived from the author’s original academic
-submissions. Verbatim sections are clearly labeled, and analytical commentary
-is separated to prevent confusion between source material and interpretation.
-
-No third-party or proprietary material is included.
-
----
-
-## Contact
-
-This repository is intended for academic review and professional discussion.
-Questions or feedback may be directed via GitHub.
-
----
+All GitHub-native documentation is derived from the author's original academic submissions. Verbatim content is clearly labeled; analytical commentary is explicitly separated from source material. No third-party or proprietary material is included.
