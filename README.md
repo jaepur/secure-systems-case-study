@@ -95,7 +95,7 @@ Recommended reading order:
 
 Digital compromise in cyber-physical systems does not stop at data loss — it translates directly to unsafe physical behavior, mission failure, or personnel harm. This project treats security as a core system property, not an afterthought, and demonstrates how structured analysis at design time produces a defensible, traceable security posture before a line of code is written.
 
-The methods applied here are directly relevant to defense systems, industrial and operational technology (OT) environments, robotics, and medical devices — domains where the cost of a security gap is measured in more than money.
+The methods applied here are directly relevant to defense systems, industrial and operational technology (OT) environments, and medical devices — domains where the cost of a security gap is measured in more than money.
 
 ---
 
